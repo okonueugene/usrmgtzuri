@@ -67,7 +67,7 @@
                     </div>
                     <div class="modal-body">
                         <form action="{{ route('create')}}" method="POST">
-                            
+                            @csrf
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
